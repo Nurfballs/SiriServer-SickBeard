@@ -1,4 +1,4 @@
-Sabnzbd.py
+sickbeard.py
 ============
 
 Installation
