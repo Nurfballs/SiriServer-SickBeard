@@ -3,7 +3,7 @@ sickbeard.py
 
 Installation
 =============
-1. Download the plugin and place it in your `/plugins` directory.
+1. Download `sickbeard.py` and place it in your `/plugins` directory.
 2. Modify your `plugins.conf` and add the name of the plugin.
 3. Restart your SiriServer.
 
