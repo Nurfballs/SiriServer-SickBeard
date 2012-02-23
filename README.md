@@ -1,4 +1,5 @@
-# README #
+Sabnzbd.py
+============
 
 Installation
 =============
@@ -6,8 +7,6 @@ Installation
 2. Modify your `plugins.conf` and add the name of the plugin.
 3. Restart your SiriServer.
 
-Sabnzbd.py
-==========
 
 Description
 -----------
