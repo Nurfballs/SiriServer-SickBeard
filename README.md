@@ -38,6 +38,7 @@ Listen String: `*(sab|sabnzbd|download).*(queue|q|status|stats|statistics)*`
 
 Example: say `download queue` or `sab status` or `download statistics` etc.
 
+[Screenshot](http://i.imgur.com/Dh2Wb.png "Screenshot")
 
 
 ### Pause Sabnzbd+ downloads
@@ -53,6 +54,8 @@ Example: say `download pause` or `sab stop` etc
 Listen String: `(sab|sabnzbd|download|downloads) (resume|unpause|start)`
 
 Example: say `download resume` or `sab unpause` etc.
+
+[Screenshot](http://i.imgur.com/L3pM8l.png "Screenshot")
 
 
 Version History
