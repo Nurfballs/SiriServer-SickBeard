@@ -1,30 +1,27 @@
 sickbeard.py
 ============
 
-Installation
-=============
-1. Download `sickbeard.py` and place it in your `/plugins` directory.
-2. Modify your `plugins.conf` and add the name of the plugin.
-3. Restart your SiriServer.
-
-
 Description
 -----------
+This plugin will allow you to use Siri in conjunction with SiriServer, to perform actions with SickBeard via voice commands.
 
-Coming Soon
 
-Files
------
-* sabnzbd.py
+Pre-requisites
+--------------
+1. A working installation of SiriServer.
+2. A working installation of SickBeard.
 
-Version History
----------------
+The installation and configuraiton of the pre-requisites are outside the scope of this readme. 
 
-**0.2**
+If you do not have these applications configured, please seek further instruction from the installation guides for each application.
 
-**0.1**
 
-* Initial Release
+Installation
+------------
+1. Download `sickbeard.py` and place it in your `/plugins` directory.
+3. Edit `sickbeard.py` and add the IP Address, Port and API Key of your SickBeard installation.
+2. Edit your `plugins.conf` and add `sickbeard` to the list of plugins to load.
+3. Restart your SiriServer.
 
 Functions
 ---------
@@ -56,3 +53,13 @@ Example: say `download pause` or `sab stop` etc
 Listen String: `(sab|sabnzbd|download|downloads) (resume|unpause|start)`
 
 Example: say `download resume` or `sab unpause` etc.
+
+
+Version History
+---------------
+
+**0.2**
+
+**0.1**
+
+* Initial Release
