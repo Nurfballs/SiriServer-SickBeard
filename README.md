@@ -28,32 +28,29 @@ Functions
 
 This script supports the following functions
 
-* Display current download queue and statistics
-* Pause / Resume queue
+* Add shows to SickBeard
+* Display upcoming shows this week
 
-**Display current download queue and statistics**
+**Add a show to SickBeard**
 
-Listen String: `*(sab|sabnzbd|download).*(queue|q|status|stats|statistics)*`
+Listen String: `(download) (tv) (show|shows)* ([\w ]+)`
 
-Example: say `download queue` or `sab status` or `download statistics` etc.
-
-[Screenshot](http://i.imgur.com/Dh2Wb.png "Screenshot")
+Example: say `download tv show The Big Bang Theory` etc.
 
 
-**Pause Sabnzbd+ downloads**
+**Display upcoming shows this week**
 
-Listen String: `(sab|sabnzbd|download|downloads) (pause|stop)`
+Listen String: `.*new.*(tv|episode|show).*`
 
-Example: say `download pause` or `sab stop` etc
+Example: say `what new shows are out this week` etc
 
 
-**Resume Sabnzbd+ downloads**
+**Restart SickBeard**
 
-Listen String: `(sab|sabnzbd|download|downloads) (resume|unpause|start)`
+Listen String: `sickbeard.*(restart|reboot|reset).*`
 
-Example: say `download resume` or `sab unpause` etc.
+Example: say `sickbeard restart` or `sickbeard reboot` etc.
 
-[Screenshot](http://i.imgur.com/L3pM8l.png "Screenshot")
 
 
 Version History
