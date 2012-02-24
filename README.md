@@ -31,8 +31,7 @@ This script supports the following functions
 * Display current download queue and statistics
 * Pause / Resume queue
 
-###Display current download queue and statistics
-************************************************
+**Display current download queue and statistics**
 
 Listen String: `*(sab|sabnzbd|download).*(queue|q|status|stats|statistics)*`
 
@@ -41,15 +40,14 @@ Example: say `download queue` or `sab status` or `download statistics` etc.
 [Screenshot](http://i.imgur.com/Dh2Wb.png "Screenshot")
 
 
-### Pause Sabnzbd+ downloads
-****************************
+**Pause Sabnzbd+ downloads**
 
 Listen String: `(sab|sabnzbd|download|downloads) (pause|stop)`
 
 Example: say `download pause` or `sab stop` etc
 
-### Resume Sabnzbd+ downloads
-*****************************
+
+**Resume Sabnzbd+ downloads**
 
 Listen String: `(sab|sabnzbd|download|downloads) (resume|unpause|start)`
 
